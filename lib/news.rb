@@ -3,6 +3,7 @@
 require "mechanize"
 require "time"
 #hogehoge
+#hugahuga
 agent = Mechanize.new
 page = agent.get("http://uni.2ch.net/news/subback.html")
 array = page.links.map{|link| link.href}
